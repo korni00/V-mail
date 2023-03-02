@@ -20,7 +20,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd project-d
+  cd V-mail
 ```
 
 Install dependencies
