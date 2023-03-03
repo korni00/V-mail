@@ -4,7 +4,6 @@ import { AuthContext } from '../../context/Auth.context';
 import { AuthContainer } from './BasicAuth.style';
 
 import Input from '@mui/material/Input';
-import InputAdornment from '@mui/material/InputAdornment';
 import FormControl from '@mui/material/FormControl';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
@@ -57,7 +56,6 @@ const BasicAuth = () => {
                 placeholder='Name'
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                id='input-with-icon-adornment'
                 name='email'
                 startAdornment={<AccountCircle />}
               />
@@ -69,7 +67,6 @@ const BasicAuth = () => {
                 placeholder='Password'
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                id='input-with-icon-adornment'
                 name='password'
                 startAdornment={
                   <>

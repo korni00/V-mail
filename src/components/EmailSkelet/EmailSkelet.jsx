@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'simplebar-react/dist/simplebar.min.css';
 import SimpleBar from 'simplebar-react';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import mailList from '../../utils/mailList.json';
-import { Avatar, Button } from '@mui/material';
+import { Avatar } from '@mui/material';
 import * as HoverCard from '@radix-ui/react-hover-card';
 import { SkeletTemplate, MailPreview, Active } from './EmailSkelet.style';
 const EmailSkelet = () => {
@@ -16,7 +16,7 @@ const EmailSkelet = () => {
               <HoverCard.Root>
                 <HoverCard.Trigger asChild>
                   <div style={{ display: 'flex', gap: '0.75rem' }}>
-                    <Avatar id='img' key={picture} src={picture} />
+                    <Avatar alt='avatar' id='img' key={picture} src={picture} />
                     <span id='name' key={name}>
                       {name}
                     </span>

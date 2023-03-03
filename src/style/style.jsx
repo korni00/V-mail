@@ -125,10 +125,11 @@ export const theme = createTheme({
         }
 
         .css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
-          display: none;
+          opacity: 0;
+
         }
         .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
-          display: none;
+          opacity: 0;
         }
         .PopoverContent{
           display: flex;
@@ -150,9 +151,6 @@ export const theme = createTheme({
             font-weight: 400;
           }
         }
-a {
-  all: unset;
-}
 
         `,
     },

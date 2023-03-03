@@ -25,7 +25,11 @@ const Content = () => {
             >
               <Tooltip title={user.email} placement='top-start'>
                 <Typography variant='span'>
-                  <Avatar id='picture_preview' src={image}></Avatar>
+                  <Avatar
+                    alt='avatar'
+                    id='picture_preview'
+                    src={image}
+                  ></Avatar>
                 </Typography>
               </Tooltip>
 
